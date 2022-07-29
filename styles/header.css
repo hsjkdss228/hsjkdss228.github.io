@@ -4,12 +4,23 @@
     top: 0;
     left: 0;
 
+    padding: 26px 0;
+    border-bottom: 1px solid #888;
+
     background-color: white;
 
     z-index: 1;
 }
 .menus {
-    width: 35vw;
+    width: 28em;
+}
+
+.contact-me-button {
+    padding: 0.7em 1.2em 0.6em 1.2em;
+    border-radius: 2em;
+
+    background-color: black;
+    color: white;
 }
 
 /* Layout */
@@ -24,4 +35,5 @@
     display: flex;
 
     justify-content: space-between;
+    align-items: center;
 }
