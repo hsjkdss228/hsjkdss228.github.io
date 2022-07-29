@@ -2,6 +2,51 @@
     padding: 10vw 15%;
 }
 
+.profile-photo {
+    height: 18vw;
+    width: 18vw;
+
+    border-radius: 100%; 
+
+    background-color: #CCC;
+    color: transparent;
+}
+
+.personal-information h2 {
+    display: inline-block;
+
+    padding-right: 1.5vw;
+}
+
+.field-of-interests {
+    padding-top: 0.8vw;
+    padding-bottom: 2.4vw;
+    border-bottom: 1px solid #CCC;
+}
+
+.field-of-interests li {
+    padding: 0.9vw 1.8vw;
+    border-radius: 20px;
+
+    background-color: rgb(94, 236, 249, 0.5);
+    color: rgb(0, 116, 155);
+}
+
+.field-of-interests li:nth-child(2n) {
+    background-color: rgba(238, 167, 112, 0.5);
+    color: rgb(155, 75, 0);
+}
+
+.contact-information {
+    padding-top: 2vw;
+
+    font-style: normal;
+}
+
+.contact-information dt {
+    font-weight: bold;
+}
+
 .projects {
     padding: 5vw 15% 7.5vw;
     margin-bottom: 40vw;
@@ -61,6 +106,41 @@
 }
 
 /* Layouts */
+#introduction {
+    display: grid;
+
+    grid-template-columns: 1fr 4fr;
+    gap: 2.5vw;
+
+    align-items: center;
+}
+
+.my-information {
+    display: grid;
+
+    grid-template-rows: 1fr 0.5fr 2fr 2fr;
+    
+    align-items: center;
+}
+
+.field-of-interests {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    column-gap: 1vw;
+}
+
+.contact-information dl {
+    display: grid;
+
+    grid-template-columns: 1.5fr 5fr 1.75fr 4fr;
+    grid-template-rows: 1fr 1fr;
+
+    row-gap: 1vw;
+}
+
 .projects-content-division {
     display: flex;
 
