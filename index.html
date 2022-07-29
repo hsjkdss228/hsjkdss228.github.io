@@ -3,167 +3,172 @@
     <head>
         <meta charset="UTF-8" />
         <title>My profile</title>
+        <link rel="stylesheet" href="styles/global.css" />
     </head>
     <body>
         <nav id="fixed-button">
-            <img class="top-of-page-button" src="data/images/top-black.png" alt="최상단으로 가기 버튼" />
+            <a href="#">
+                <img class="top-of-page-button" src="data/images/top-black.png" alt="최상단으로 가기 버튼" />
+            </a>
         </nav>
-        <header id="menu-bar">
-            <h1>INU</h1>
-            <nav class="menus">
-                <ul>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Retrospect</a></li>
-                    <li><a href="#">CONTACT ME!</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="introduction">
-                <img class="profile-photo" src="" alt="내 프로필 사진" />
-                <div>
-                    <div class="my-information">
-                        <div class="personal-information">
-                            <h2>황인우</h2>
-                            <label>Programmer</label>
+        <div id="main-page">
+            <header id="menu-bar">
+                <h1>INU</h1>
+                <nav class="menus">
+                    <ul>
+                        <li><a href="#">Project</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Retrospect</a></li>
+                        <li><a href="#">CONTACT ME!</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="introduction">
+                    <img class="profile-photo" src="" alt="내 프로필 사진" />
+                    <div>
+                        <div class="my-information">
+                            <div class="personal-information">
+                                <h2>황인우</h2>
+                                <label>Programmer</label>
+                            </div>
+                            <p class="greeting">
+                                꿈을 좇아 광야를 누비는 개발자
+                            </p>
+                            <ul class="field-of-interests">
+                                <li>나의 관심 분야 태그 1</li>
+                                <li>나의 관심 분야 태그 2</li>
+                                <li>Java</li>
+                                <li>C/C++</li>
+                            </ul>
                         </div>
-                        <p class="greeting">
-                            꿈을 좇아 광야를 누비는 개발자
-                        </p>
-                        <ul class="field-of-interests">
-                            <li>나의 관심 분야 태그 1</li>
-                            <li>나의 관심 분야 태그 2</li>
-                            <li>Java</li>
-                            <li>C/C++</li>
-                        </ul>
+                        <address class="contact-information">
+                            <ul>
+                                <li>TEL.<span>(+82) 01068772291</span></li>
+                                <li>Email.<span>hsjkdss228@naver.com</span></li>
+                                <li>Blog.<span>https://innu3368.tistory.com</span></li>
+                                <li>GitHub.<span>https://github.com/hsjkdss228</span></li>
+                            </ul>
+                        </address>
                     </div>
-                    <address class="contact-information">
-                        <ul>
-                            <li>TEL.<span>(+82) 01068772291</span></li>
-                            <li>Email.<span>hsjkdss228@naver.com</span></li>
-                            <li>Blog.<span>https://innu3368.tistory.com</span></li>
-                            <li>GitHub.<span>https://github.com/hsjkdss228</span></li>
-                        </ul>
-                    </address>
-                </div>
-            </section>
-            <article id="contents">
-                <section class="projects">
-                    <div class="content-title">
-                        <h3>Projects</h3>
-                        <label>프로젝트에 관련된 내용이 들어가는 부분입니다.</label>
-                    </div>
-                    <ul>
-                        <li>
-                            <img src="" alt="프로젝트 이미지 1" />
-                            <div>
-                                <label>프로젝트에 대한 설명</label>
-                                <p>
-                                    스킬에 관한 설명이 들어가는 영역입니다.<br>
-                                    최대 두 줄이 들어갑니다.
-                                </p>
-                                <button>자세히 보기</button>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="" alt="프로젝트 이미지 2" />
-                            <div>
-                                <label>프로젝트에 대한 설명</label>
-                                <p>
-                                    스킬에 관한 설명이 들어가는 영역입니다.<br>
-                                    최대 두 줄이 들어갑니다.
-                                </p>
-                                <button>자세히 보기</button>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="" alt="프로젝트 이미지 3" />
-                            <div>
-                                <label>프로젝트에 대한 설명</label>
-                                <p>
-                                    스킬에 관한 설명이 들어가는 영역입니다.<br>
-                                    최대 두 줄이 들어갑니다.
-                                </p>
-                                <button>자세히 보기</button>
-                            </div>
-                        </li>
-                    </ul>
                 </section>
-                <section class="experiences">
-                    <div class="content-title">
-                        <h3>Experience</h3>
-                        <label>경력 및 학력이 들어가는 영역입니다.</label>
-                    </div>
-                    <ul>
-                        <li>
-                            <label>회사 1</label>
-                            <p>주요 업무를 적는 란</p>
-                            <time>2022.12.00~2022.12.00</time>
-                        </li>
-                        <li>
-                            <label>회사 2</label>
-                            <p>주요 업무를 적는 란</p>
-                            <time>2022.12.00~2022.12.00</time>
-                        </li>
-                        <li>
-                            <label>학교 1 및 교육기관</label>
-                            <p>건국대학교</p>
-                            <time>2022.12.00~2022.12.00</time>
-                        </li>
-                        <li>
-                            <label>학교 2 및 교육기관</label>
-                            <p>성수 코딩 도장</p>
-                            <time>2022.12.00~2022.12.00</time>
-                        </li>
-                    </ul>
-                </section>
-                <section class="retrospects">
-                    <div class="content-title">
-                        <h3>Retrospect</h3>
-                        <label>회고 모음이 여기에 들어갑니다.</label>
+                <article id="contents">
+                    <section class="projects">
+                        <div class="content-title">
+                            <h3>Projects</h3>
+                            <label>프로젝트에 관련된 내용이 들어가는 부분입니다.</label>
+                        </div>
                         <ul>
-                            <li>분류 1</li>
-                            <li>분류 2</li>
-                            <li>분류 3</li>
+                            <li>
+                                <img src="" alt="프로젝트 이미지 1" />
+                                <div>
+                                    <label>프로젝트에 대한 설명</label>
+                                    <p>
+                                        스킬에 관한 설명이 들어가는 영역입니다.<br>
+                                        최대 두 줄이 들어갑니다.
+                                    </p>
+                                    <button>자세히 보기</button>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="" alt="프로젝트 이미지 2" />
+                                <div>
+                                    <label>프로젝트에 대한 설명</label>
+                                    <p>
+                                        스킬에 관한 설명이 들어가는 영역입니다.<br>
+                                        최대 두 줄이 들어갑니다.
+                                    </p>
+                                    <button>자세히 보기</button>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="" alt="프로젝트 이미지 3" />
+                                <div>
+                                    <label>프로젝트에 대한 설명</label>
+                                    <p>
+                                        스킬에 관한 설명이 들어가는 영역입니다.<br>
+                                        최대 두 줄이 들어갑니다.
+                                    </p>
+                                    <button>자세히 보기</button>
+                                </div>
+                            </li>
                         </ul>
+                    </section>
+                    <section class="experiences">
+                        <div class="content-title">
+                            <h3>Experience</h3>
+                            <label>경력 및 학력이 들어가는 영역입니다.</label>
+                        </div>
+                        <ul>
+                            <li>
+                                <label>회사 1</label>
+                                <p>주요 업무를 적는 란</p>
+                                <time>2022.12.00~2022.12.00</time>
+                            </li>
+                            <li>
+                                <label>회사 2</label>
+                                <p>주요 업무를 적는 란</p>
+                                <time>2022.12.00~2022.12.00</time>
+                            </li>
+                            <li>
+                                <label>학교 1 및 교육기관</label>
+                                <p>건국대학교</p>
+                                <time>2022.12.00~2022.12.00</time>
+                            </li>
+                            <li>
+                                <label>학교 2 및 교육기관</label>
+                                <p>성수 코딩 도장</p>
+                                <time>2022.12.00~2022.12.00</time>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="retrospects">
+                        <div class="content-title">
+                            <h3>Retrospect</h3>
+                            <label>회고 모음이 여기에 들어갑니다.</label>
+                            <ul>
+                                <li>분류 1</li>
+                                <li>분류 2</li>
+                                <li>분류 3</li>
+                            </ul>
+                        </div>
+                        <nav>
+                            <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                            <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                            <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                            <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                            <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                            <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                            <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                            <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                        </nav>
+                    </section>
+                </article>
+                <section id="closing">
+                    <div>
+                        <div>
+                            <p class="main-closing-text">
+                                나를 소개하는 마지막 마무으리 문구
+                            </p>
+                            <p class="sub-closing-text">
+                                으리으리한(서브서브한) 문구가 들어가는 영역입니다.
+                            </p>
+                        </div>
+                        <a href="#">CONTACT ME!</a>
                     </div>
                     <nav>
-                        <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
-                        <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
-                        <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
-                        <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
-                        <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
-                        <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
-                        <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
-                        <a class="retrospect-thumbnail" href="#">제목이 여기에 들어갑니다...</a>
+                        <a href=""><img src="data/images/facebook.png" alt="페이스북 아이콘" /></a>
+                        <a href=""><img src="data/images/instargram.png" alt="인스타그램 아이콘" /></a>
+                        <a href=""><img src="data/images/twitter.png" alt="트위터 아이콘" /></a>
+                        <a href=""><img src="data/images/youtube.png" alt="유튜브 아이콘" /></a>
                     </nav>
                 </section>
-            </article>
-            <section id="closing">
-                <div>
-                    <div>
-                        <p class="main-closing-text">
-                            나를 소개하는 마지막 마무으리 문구
-                        </p>
-                        <p class="sub-closing-text">
-                            으리으리한(서브서브한) 문구가 들어가는 영역입니다.
-                        </p>
-                    </div>
-                    <a href="#">CONTACT ME!</a>
-                </div>
-                <nav>
-                    <a href=""><img src="data/images/facebook.png" alt="페이스북 아이콘" /></a>
-                    <a href=""><img src="data/images/instargram.png" alt="인스타그램 아이콘" /></a>
-                    <a href=""><img src="data/images/twitter.png" alt="트위터 아이콘" /></a>
-                    <a href=""><img src="data/images/youtube.png" alt="유튜브 아이콘" /></a>
-                </nav>
-            </section>
-        </main>
-        <footer>
-            <address>
-                Copyright 2022 황인우, All rights reserved.
-            </address>
-        </footer>
+            </main>
+            <footer>
+                <address>
+                    Copyright 2022 황인우, All rights reserved.
+                </address>
+            </footer>
+        </div>
     </body>
 </html>
