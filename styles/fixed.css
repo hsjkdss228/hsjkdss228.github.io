@@ -1,11 +1,24 @@
 #fixed-button {
     position: fixed;
 
-    left: 1620px;
+    left: 90%;
     bottom: 12%;
 }
 
 .top-of-page-button {
+    display: inline-block;
+
     height: 60px;
     width: 60px;
+
+    color: transparent;
+
+    background-image: url(../data/images/top-black.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+}
+
+.top-of-page-button:hover {
+    background-image: url(../data/images/top-white.png);
 }
