@@ -1,0 +1,27 @@
+#menu-bar {
+    position: sticky;
+    
+    top: 0;
+    left: 0;
+
+    background-color: white;
+
+    z-index: 1;
+}
+.menus {
+    width: 35vw;
+}
+
+/* Layout */
+#menu-bar {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menus ul {
+    display: flex;
+
+    justify-content: space-between;
+}
