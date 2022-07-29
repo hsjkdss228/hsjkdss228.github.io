@@ -44,7 +44,7 @@
 }
 
 #closing {
-    margin: 5vw 15% 7.5vw;
+    margin: 5vw 15% 10vw;
 }
 
 .closing-content-box {
@@ -53,7 +53,7 @@
     padding: 3vw 5%;
     border: 1px solid #CCC;
     border-top-color: black;
-    margin-bottom: 2vw;
+    margin-bottom: 3.25vw;
 }
 
 #closing nav img {
