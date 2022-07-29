@@ -13,6 +13,10 @@
     position: absolute;
 }
 
+.experiences {
+    padding: 0 15% 10vw;
+}
+
 /* Layout */
 .projects-content-division {
     display: flex;
@@ -26,3 +30,14 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.experiences {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.experiences ul {
+    display: grid;
+
+    grid-template-rows: repeat(4, 1fr);
+}
