@@ -1,0 +1,28 @@
+#introduction {
+    padding: 10vw 15%;
+}
+
+.projects {
+    padding: 5vw 15% 7.5vw;
+    margin-bottom: 40vw;
+
+    background-color: #EEE;
+}
+
+.projects-content-division {
+    position: absolute;
+}
+
+/* Layout */
+.projects-content-division {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.projects-content-division ul {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
