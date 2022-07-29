@@ -1,0 +1,11 @@
+#fixed-button {
+    position: fixed;
+
+    left: 1620px;
+    bottom: 12%;
+}
+
+.top-of-page-button {
+    height: 60px;
+    width: 60px;
+}
