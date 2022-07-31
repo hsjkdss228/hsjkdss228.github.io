@@ -1,18 +1,14 @@
 #fixed-button {
     position: fixed;
-
     left: 90%;
     bottom: 12%;
 }
 
 .top-of-page-button {
     display: inline-block;
-
-    height: 60px;
-    width: 60px;
-
+    height: 4em;
+    width: 4em;
     color: transparent;
-
     background-image: url(../data/images/top-black.png);
     background-repeat: no-repeat;
     background-position: 50%;

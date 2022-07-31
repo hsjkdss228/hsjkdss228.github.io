@@ -5,41 +5,40 @@
 .profile-photo {
     height: 18vw;
     width: 18vw;
-
     border-radius: 100%; 
-
     background-color: #CCC;
     color: transparent;
 }
 
-.personal-information h2 {
+.personal-information h2, .position, #contents h3 {
     display: inline-block;
+}
 
+.personal-information h2 {
+    font-size: 1.7em;
     padding-right: 1.5vw;
 }
 
-.field-of-interests {
+.interests {
     padding-top: 0.8vw;
     padding-bottom: 2.4vw;
     border-bottom: 1px solid #CCC;
 }
 
-.field-of-interests li {
+.interests li {
     padding: 0.9vw 1.8vw;
-    border-radius: 20px;
-
+    border-radius: 2em;
     background-color: rgb(94, 236, 249, 0.5);
     color: rgb(0, 116, 155);
 }
 
-.field-of-interests li:nth-child(2n) {
+.interests li:nth-child(2n) {
     background-color: rgba(238, 167, 112, 0.5);
     color: rgb(155, 75, 0);
 }
 
 .contact-information {
     padding-top: 2vw;
-
     font-style: normal;
 }
 
@@ -47,15 +46,73 @@
     font-weight: bold;
 }
 
-.projects {
-    padding: 5vw 15% 7.5vw;
-    margin-bottom: 40vw;
+#contents h3 {
+    font-size: 1.7em;
+    padding-right: 1.5vw;
+}
 
+.projects {
+    padding: 5vw 15% 20vw;
+    margin-bottom: 40vw;
     background-color: #EEE;
 }
 
 .projects-content-division {
     position: absolute;
+    width: 70%;
+}
+
+.projects-content-division ul li {
+    margin: 0.375em;
+    text-align: center;
+}
+
+.for-border-radius {
+    border: 1px solid black;
+    border-radius: 2em;
+}
+
+.project-images {
+    height: 12em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: transparent;
+}
+
+#project-image1 {
+    background-image: url(../data/images/project-image1.jpeg);
+}
+
+#project-image2 {
+    background-image: url(../data/images/project-image2.jpeg);
+}
+
+#project-image3 {
+    background-image: url(../data/images/project-image3.jpeg);
+}
+
+.project-details {
+    padding: 2em;
+    background-color: white;
+}
+
+.project-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.project-details button {
+    padding: 1em 3em;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2em;
 }
 
 .experiences {
@@ -64,7 +121,6 @@
 
 .retrospects {
     padding: 10vw 15%;
-
     background-color: #333;
 }
 
@@ -72,7 +128,8 @@
     color: white;
 }
 
-.content-title-retrospect label {
+.title-description {
+    display: inline-block;
     color: #AAA;
 }
 
@@ -94,7 +151,6 @@
 
 .closing-content-box {
     width: 100%;
-
     padding: 3vw 5%;
     border: 1px solid #CCC;
     border-top-color: black;
@@ -108,66 +164,66 @@
 /* Layouts */
 #introduction {
     display: grid;
-
     grid-template-columns: 1fr 4fr;
     gap: 2.5vw;
-
     align-items: center;
 }
 
 .my-information {
     display: grid;
-
     grid-template-rows: 1fr 0.5fr 2fr 2fr;
-    
     align-items: center;
 }
 
-.field-of-interests {
+.interests {
     display: flex;
-
     flex-wrap: wrap;
     align-content: flex-start;
-
     column-gap: 1vw;
 }
 
 .contact-information dl {
     display: grid;
-
     grid-template-columns: 1.5fr 5fr 1.75fr 4fr;
     grid-template-rows: 1fr 1fr;
-
     row-gap: 1vw;
 }
 
 .projects-content-division {
     display: flex;
-
     flex-direction: column;
+    gap: 0.8em;
 }
 
 .projects-content-division ul {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
-    grid-template-columns: 1fr 1fr 1fr;
+.projects-content-division ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 
 .experiences, .retrospects {
     display: flex;
-
     flex-direction: column;
 }
 
 .experiences ul {
     display: grid;
-
     grid-template-rows: repeat(4, 1fr);
 }
 
 .retrospects-header {
     display: flex;
-
     justify-content: space-between;
 }
 
@@ -177,7 +233,6 @@
 
 .retrospect-list {
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 0.5vw;
@@ -185,21 +240,18 @@
 
 #closing {
     display: flex;
-
     flex-direction: column;
     align-items: center;
 }
 
 .closing-content-box {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
 }
 
 .outlink-icons {
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
     gap: 3vw;
 }
