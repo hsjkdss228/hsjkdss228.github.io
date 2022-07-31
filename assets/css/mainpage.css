@@ -6,7 +6,7 @@
     height: 18vw;
     width: 18vw;
     border-radius: 100%; 
-    background-image: url(../data/images/avatar.jpeg);
+    background-image: url(../images/avatar.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -86,15 +86,15 @@
 }
 
 #project-image1 {
-    background-image: url(../data/images/project-image1.jpeg);
+    background-image: url(../images/project-image1.jpeg);
 }
 
 #project-image2 {
-    background-image: url(../data/images/project-image2.jpeg);
+    background-image: url(../images/project-image2.jpeg);
 }
 
 #project-image3 {
-    background-image: url(../data/images/project-image3.jpeg);
+    background-image: url(../images/project-image3.jpeg);
 }
 
 .project-details {
@@ -148,7 +148,7 @@
 }
 
 .retrospects {
-    padding: 10vw 15%;
+    padding: 8vw 15%;
     background-color: #333;
 }
 

@@ -9,12 +9,12 @@
     height: 4em;
     width: 4em;
     color: transparent;
-    background-image: url(../data/images/top-black.png);
+    background-image: url(../images/top-black.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
 }
 
 .top-of-page-button:hover {
-    background-image: url(../data/images/top-white.png);
+    background-image: url(../images/top-white.png);
 }
