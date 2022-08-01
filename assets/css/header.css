@@ -46,25 +46,44 @@
 /* Media Queries */
 @media (max-width: 1024px) {
     #menu-bar {
-        padding: 3vw 3vw 5vw 3vw;
+        padding: 0;
         border-bottom: 1px solid #888;
         background-color: white;
         z-index: 1;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        flex-direction: column;
         column-gap: 5vw;
     }
 
+    .menus {
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+
+    .menus ul {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 0;
+    }
+
+    .menus li {
+        padding: 2vw;
+    }
+
+    .menus li:not(li:last-of-type) {
+        font-size: 3vw;
+    }
+
     h1 {
+        font-size: 5vw;
         display: block;
         width: 100%;
-        padding-bottom: 3.5vw;
+        padding: 3.5vw 5vw;
         border-bottom: 1px solid #CCC;
     }
 
     #menu-bar .contact-me-button {
         position: fixed;
-        top: 2.5vw;
-        right: 3vw
+        top: 3vw;
+        right: 4vw
     }
 }

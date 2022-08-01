@@ -8,3 +8,10 @@ footer p {
     display: inline;
     color: #999;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    footer {
+        padding: 7vw 0;
+    }
+}
