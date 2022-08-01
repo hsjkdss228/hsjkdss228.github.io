@@ -18,3 +18,11 @@
 .top-of-page-button:hover {
     background-image: url(../images/top-white.png);
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    #fixed-button {
+        left: 87.5%;
+        z-index: 1;
+    }
+}
