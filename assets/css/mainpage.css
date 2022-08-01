@@ -54,7 +54,7 @@
     padding-right: 1.5vw;
 }
 
-.projects {
+#projects {
     padding: 5vw 15% 15vw;
     margin-bottom: 25vw;
     background-color: #EEE;
@@ -120,7 +120,7 @@
     cursor: pointer;
 }
 
-.experiences {
+#experiences {
     padding: 0 15% 10vw;
 }
 
@@ -129,16 +129,16 @@
     border-bottom: 2px solid black;
 }
 
-.experiences li {
+#experiences li {
     padding: 1.75vw 1vw;
     border-bottom: 1px solid #CCC;
 }
 
-.experiences > ul > li > time {
+#experiences > ul > li > time {
     text-align: right;
 }
 
-.experiences > ul > li > p:first-of-type {
+#experiences > ul > li > p:first-of-type {
     font-size: 1.1em;
     font-weight: bold;
 }
@@ -147,7 +147,7 @@
     color: #888;
 }
 
-.retrospects {
+#retrospects {
     padding: 8vw 15%;
     background-color: #333;
 }
@@ -266,17 +266,17 @@
     gap: 2em;
 }
 
-.experiences, .retrospects {
+#experiences, #retrospects {
     display: flex;
     flex-direction: column;
 }
 
-.experiences ul {
+#experiences ul {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
 }
 
-.experiences li {
+#experiences li {
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
 }
